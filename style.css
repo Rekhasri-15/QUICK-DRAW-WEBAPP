@@ -1,0 +1,48 @@
+body
+{
+    background-color:chocolate;
+}
+h1
+{
+    color:lime;
+    background-color:black;
+}
+#show_sketch
+{
+    float: right;
+}
+canvas
+{
+    border: 5px solid indianred;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 333px;
+    animation-iteration-count: infinite;
+}
+@keyframes example
+{
+    from{box-shadow: 1px , 1px , 38px silver}
+    to{box-shadow: 1px , 1px , 38px #baff00;}
+}
+
+#score
+{
+    font-size: 30px;
+    float: right 7px;
+}
+
+#timer
+{
+    font-size: 30px;
+    float: left 7px;
+}
+
+#sketch_to_be_drawn
+{
+    color:aquamarine;
+    font-size: 45px;
+}
+
+
+ 
